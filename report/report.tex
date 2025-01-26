@@ -1,0 +1,118 @@
+\documentclass[11pt]{report}
+
+\usepackage[textwidth=16cm, textheight=24cm]{geometry}
+% Packages for special characters and symbols
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage[inline]{enumitem}
+% Package for hyperlinks
+\usepackage{hyperref}
+
+% Package for graphics
+\usepackage{graphicx, caption}
+\usepackage{fancyhdr} % For fancy headers and footers
+\usepackage[export]{adjustbox}
+\usepackage{subcaption}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{dirtree}
+
+% Package for better tables
+\usepackage{booktabs}
+\usepackage{xepersian}
+
+
+
+
+
+% Page dimensions and margin settings
+\geometry{
+  top=0.5cm,
+%   left=3cm,
+  headheight=40pt, % Adjust the header height
+  headsep=10pt, % Separation between header and text
+  includeheadfoot
+}
+
+% Path to your logo
+\newcommand{\headerlogo}{images/Logo.png}
+
+% Header and footer configuration
+\pagestyle{fancy}
+\fancyhf{} % Clear header and footer
+\fancyhead[R]{\includegraphics[height=40pt]{\headerlogo}} % Logo on the Left of the header
+\fancyfoot[C]{\thepage} % Page number at the center of the footer
+
+% Ensure the header and footer lines are removed
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+
+
+
+% \setlatintextfont{Times New Roman}
+% \settextfont{Yas.ttf}
+\settextfont[
+BoldFont=Yas Bd.TTF]{Yas.TTF}
+% Set the title, author, and date
+\title{شناسایی ژن های آنزیم زایالناز از متاژنوم شکمبه نشخوارکنندگان}
+\author{امیرحسین انتظاری و دلارام حسینی}
+\date{\today}
+
+% Begin document
+\begin{document}
+\begin{figure}
+    \centering \includegraphics[height=3cm]{images/Logo.png}
+\end{figure}
+% Redefine chaptername
+\renewcommand{\chaptername}{بخش}
+\newpage
+% Create the title
+\maketitle
+\newpage
+% Create a table of contents
+% \tableofcontents
+% Separate the table of contents from the next content with a new page
+% \clearpage
+
+\newgeometry{textwidth=13cm,textheight=22cm}
+    \begin{abstract}
+      متاژنوم ها به عنوان یک منبع غنی از تنوع ژنتیکی میکروبی عمل می کنند و فرصتی منحصر به فرد برای کشف آنزیم های جدید با اهمیت صنعتی ارائه می دهند. این مطالعه بر شناسایی ژن‌های کدکننده زایلاناز از متاژنوم شکمبه نشخوارکنندگان متمرکز است و زایلانازهای پایدار در برابر حرارت را با کاربردهای بالقوه در تولید سوخت زیستی، پردازش مواد غذایی، خوراک حیوانات و صنعت کاغذ هدف قرار می‌دهد.
+      این مطالعه یک رویکرد سه مرحله‌ای را دنبال می‌کند: 
+      (1) 
+      شناسایی توالی‌های زایلاناز بالقوه از طریق جستجوهای مبتنی بر شباهت در برابر زایلانازهای مقاوم در برابر حرارت شناخته شده با استفاده از BLAST و DIAMOND و غیره
+      (2) 
+      خوشه‌بندی توالی‌های مشابه با استفاده از 
+      CD-HIT 
+      برای حذف افزونگی و انتخاب توالی‌های نماینده، و 
+      (3) 
+      استفاده از مدل‌سازی توالی خاص، ماتریس‌ها 
+      (PSSM) 
+      و مدل‌های مارکوف پنهان 
+      (HMM) 
+      برای اصلاح فهرست نامزدها بر اساس موتیف‌های حفاظت‌شده.
+      تجزیه و تحلیل ما توالی‌های 
+      Xylanase 
+      پتانسیل 
+      X 
+      را از مجموعه داده‌های متاژنومی شناسایی کرد، که از آن‌ها توالی‌های غیر زائد 
+      Y 
+      پس از خوشه‌بندی انتخاب شدند. مدل‌سازی منطقه حفاظت‌شده این فهرست را به کاندیدهای زایلاناز بسیار مطمئن 
+      Z 
+      اصلاح کرد. این یافته‌ها نشان می‌دهد که میکروبیوم شکمبه دارای آرایه متنوعی از آنزیم‌های زایلاناز است، که بسیاری از آنها ممکن است ویژگی‌های منحصربه‌فردی را برای کاربردهای صنعتی نشان دهند. این مطالعه پتانسیل داده‌کاوی متاژنومی را در کشف آنزیم برجسته می‌کند و پایه‌ای را برای اعتبار سنجی تجربی بیشتر زایلانازهای شناسایی شده تنظیم می‌کند.
+        \end{abstract}
+\restoregeometry
+
+\include{part1.tex}
+\newpage
+\include{part2.tex}
+\newpage
+\include{part3.tex}
+\newpage
+\include{part4.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Bibliography section %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{bibelography.tex}
+\end{document}

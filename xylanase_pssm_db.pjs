@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "xylanase_pssm_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "step3/aligned_sequences.fasta",
+  "number-of-letters": 5461512,
+  "number-of-sequences": 1416,
+  "last-updated": "2025-02-08T03:15:00",
+  "number-of-volumes": 1,
+  "bytes-total": 5641207,
+  "bytes-to-cache": 5474377,
+  "files": [
+    "xylanase_pssm_db.pdb",
+    "xylanase_pssm_db.phr",
+    "xylanase_pssm_db.pin",
+    "xylanase_pssm_db.pot",
+    "xylanase_pssm_db.psq",
+    "xylanase_pssm_db.ptf",
+    "xylanase_pssm_db.pto"
+  ]
+}

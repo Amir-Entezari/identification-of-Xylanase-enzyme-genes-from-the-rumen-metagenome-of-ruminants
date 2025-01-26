@@ -1,0 +1,49 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k141_2357594         -          aligned_proteins     -                  0 1058.2  40.9  2.1e-280  928.4  30.7   2.2   2   0   0   2   2   2   2 -
+k141_1778842         -          aligned_proteins     -            1.1e-88  294.6   3.2   1.3e-88  294.4   3.2   1.0   1   0   0   1   1   1   1 -
+k141_6281050         -          aligned_proteins     -            6.3e-69  229.2   2.3   7.3e-69  229.0   2.3   1.0   1   0   0   1   1   1   1 -
+k141_1714083         -          aligned_proteins     -            1.1e-25   86.3   1.1   1.4e-25   86.0   1.1   1.0   1   0   0   1   1   1   1 -
+k141_4532736         -          aligned_proteins     -            2.4e-18   62.0   0.1   2.8e-18   61.8   0.1   1.1   1   0   0   1   1   1   1 -
+k141_7434082         -          aligned_proteins     -              8e-17   57.0   4.7   1.3e-16   56.3   4.7   1.4   1   1   0   1   1   1   1 -
+k141_5250700         -          aligned_proteins     -              2e-13   45.8   0.0   2.3e-13   45.6   0.0   1.0   1   0   0   1   1   1   1 -
+k141_1963446         -          aligned_proteins     -            4.2e-12   41.4   0.0   4.2e-12   41.4   0.0   1.0   1   0   0   1   1   1   1 -
+k141_4935816         -          aligned_proteins     -            4.9e-12   41.2   0.0   5.3e-12   41.1   0.0   1.0   1   0   0   1   1   1   1 -
+k141_3934590         -          aligned_proteins     -            2.9e-11   38.6   0.0   6.9e-10   34.0   0.0   2.0   1   1   0   1   1   1   1 -
+k141_8341858         -          aligned_proteins     -            3.2e-10   35.2   0.1   3.3e-10   35.1   0.1   1.0   1   0   0   1   1   1   1 -
+k141_5876574         -          aligned_proteins     -            3.4e-09   31.8   0.1     4e-09   31.5   0.1   1.0   1   0   0   1   1   1   1 -
+k141_966364          -          aligned_proteins     -            1.2e-08   30.0   0.6   1.8e-08   29.4   0.6   1.2   1   0   0   1   1   1   1 -
+k141_510338          -          aligned_proteins     -            1.2e-07   26.7   0.0   1.2e-07   26.6   0.0   1.0   1   0   0   1   1   1   1 -
+k141_8657155         -          aligned_proteins     -            4.2e-07   24.9   0.0   4.2e-07   24.8   0.0   1.0   1   0   0   1   1   1   1 -
+k141_5291071         -          aligned_proteins     -            7.3e-07   24.1   0.0   7.9e-07   23.9   0.0   1.0   1   0   0   1   1   1   1 -
+k141_8456605         -          aligned_proteins     -            1.8e-06   22.8   0.1     2e-06   22.6   0.1   1.0   1   0   0   1   1   1   1 -
+k141_8434284         -          aligned_proteins     -            3.8e-06   21.7   0.0   4.4e-06   21.5   0.0   1.0   1   0   0   1   1   1   1 -
+k141_8158151         -          aligned_proteins     -            1.7e-05   19.5   0.0   1.7e-05   19.5   0.0   1.0   1   0   0   1   1   1   1 -
+k141_8436146         -          aligned_proteins     -            9.1e-05   17.1   0.0   9.9e-05   17.0   0.0   1.0   1   0   0   1   1   1   1 -
+k141_1387459         -          aligned_proteins     -            0.00015   16.4   0.0   0.00017   16.2   0.0   1.0   1   0   0   1   1   1   1 -
+k141_4879434         -          aligned_proteins     -            0.00018   16.1   0.0   0.00018   16.1   0.0   1.0   1   0   0   1   1   1   1 -
+k141_2280578         -          aligned_proteins     -            0.00023   15.8   0.0   0.00023   15.8   0.0   1.0   1   0   0   1   1   1   1 -
+k141_8189006         -          aligned_proteins     -            0.00052   14.6   0.0   0.00052   14.6   0.0   1.0   1   0   0   1   1   1   1 -
+k141_2928998         -          aligned_proteins     -            0.00053   14.6   0.0   0.00053   14.6   0.0   1.0   1   0   0   1   1   1   1 -
+k141_2046258         -          aligned_proteins     -            0.00063   14.4   0.0   0.00063   14.4   0.0   1.0   1   0   0   1   1   1   1 -
+k141_1414325         -          aligned_proteins     -            0.00069   14.2   0.0   0.00069   14.2   0.0   1.0   1   0   0   1   1   1   1 -
+k141_6541486         -          aligned_proteins     -             0.0011   13.6   0.0    0.0012   13.4   0.0   1.0   1   0   0   1   1   1   1 -
+k141_9319028         -          aligned_proteins     -             0.0026   12.3   0.0    0.0026   12.3   0.0   1.0   1   0   0   1   1   1   1 -
+k141_6583524         -          aligned_proteins     -              0.003   12.1   0.0     0.003   12.1   0.0   1.0   1   0   0   1   1   1   1 -
+k141_7721272         -          aligned_proteins     -             0.0033   12.0   0.0    0.0037   11.8   0.0   1.0   1   0   0   1   1   1   1 -
+k141_5948227         -          aligned_proteins     -             0.0053   11.3   0.0    0.0055   11.2   0.0   1.1   1   0   0   1   1   1   1 -
+k141_5836112         -          aligned_proteins     -             0.0066   11.0   0.1    0.0066   11.0   0.1   1.0   1   0   0   1   1   1   1 -
+k141_8505946         -          aligned_proteins     -              0.008   10.7   0.0    0.0083   10.6   0.0   1.1   1   0   0   1   1   1   1 -
+k141_9148488         -          aligned_proteins     -             0.0088   10.6   0.0    0.0088   10.6   0.0   1.0   1   0   0   1   1   1   1 -
+k141_1784823         -          aligned_proteins     -               0.01   10.3   0.0      0.01   10.3   0.0   1.0   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      xylanase.hmm
+# Target file:     step2/clustered_proteins.fasta
+# Option settings: hmmsearch --tblout step3/filtered_xylanase_hmm.txt xylanase.hmm step2/clustered_proteins.fasta 
+# Current dir:     /home/amir/Documents/university/Semester9/bioinformatics/project2
+# Date:            Sat Feb  8 03:39:15 2025
+# [ok]

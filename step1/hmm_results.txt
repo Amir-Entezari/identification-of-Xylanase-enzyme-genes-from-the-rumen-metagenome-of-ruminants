@@ -1,0 +1,13 @@
+#                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name              accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------    -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      xylanase.hmm
+# Target file:     data/y5_splitted.fa
+# Option settings: hmmsearch --tblout step1/hmm_results.txt xylanase.hmm data/y5_splitted.fa 
+# Current dir:     /home/amir/Documents/university/Semester9/bioinformatics/project2
+# Date:            Sat Feb  8 01:31:49 2025
+# [ok]
